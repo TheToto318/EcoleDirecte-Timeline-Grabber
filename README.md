@@ -38,6 +38,6 @@ Need a student account !!
                                       -v yourlocalpath:/calendar \
                                       "tag used during build"
                                       
-          A calendar.ical file will be generated or update ech 45 minutes.
+          A calendar.ical file will be generated or update each 45 minutes.
                                       
                                       
