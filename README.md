@@ -30,8 +30,8 @@ Need a student account !!
                    
           Docker run command exemple : docker run -t -d \
                                       --name=timelinegrabber \
-                                      -e MY_USER=AROUX33 \
-                                      -e MY_PASS=THOMAS2003 \
+                                      -e MY_USER=id \
+                                      -e MY_PASS=pass \
                                       -e startDate=2020-11-02 \
                                       -e endDate=2021-08-01 \
                                       -e interval=45 \
