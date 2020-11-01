@@ -22,6 +22,7 @@ Need a student account !!
                                     - MY_PASS
                                     - startDate (Y-M-D)
                                     - endDate (Y-M-D)
+                                    - interval (in min)
           
           
           Volume : calendar.ical file is created in the "/calendar" directory in the container.
@@ -33,7 +34,10 @@ Need a student account !!
                                       -e MY_PASS=THOMAS2003 \
                                       -e startDate=2020-11-02 \
                                       -e endDate=2021-08-01 \
+                                      -e interval=45 \
                                       -v /volume1/Thomas/calendar:/calendar \
                                       "tag used during build"
+                                      
+          A calendar.ical file will be generated or update ech 45 minutes.
                                       
                                       
