@@ -86,7 +86,7 @@ def timeline_to_ical():
                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:82.0) Gecko/20100101 Firefox/82.0',
                'Accept-Language': 'fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3', 'Accept-Encoding': 'gzip, deflate, br',
                'Origin': 'https://www.ecoledirecte.com', 'DNT': '1', 'Connection': 'keep-alive',
-               'Refer': 'https://www.ecoledirecte.com/Eleves/7966/EmploiDuTemps'}
+               'Refer': f'https://www.ecoledirecte.com/Eleves/{get_id(user, password)}/EmploiDuTemps'}
     r = requests.post(url, data=payload, headers=headers)
     os.chdir(r"/calendar")
     open('calendar.ical', 'wb').write(r.content)
