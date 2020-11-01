@@ -1,5 +1,5 @@
 # EcoleDirecte-Timeline-Grabber
-An ical timeline grabber for the EcoleDirecte platform written in python
+An ical timeline grabber for the EcoleDirecte platform written in python with a docker image
 
 Need a student account !!
 
