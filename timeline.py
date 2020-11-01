@@ -97,9 +97,10 @@ user = os.environ['MY_USER']
 password = os.environ['MY_PASS']
 startDate = os.environ['startDate']
 endDate = os.environ['endDate']
+interval = os.environ['interval']
 
 timeline_to_ical()
 
 scheduler = BlockingScheduler()
-job = scheduler.add_job(timeline_to_ical, 'interval', minutes=45)
+job = scheduler.add_job(timeline_to_ical, 'interval', minutes=interval)
 scheduler.start()
