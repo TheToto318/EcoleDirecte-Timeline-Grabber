@@ -35,7 +35,7 @@ Need a student account !!
                                       -e startDate=2020-11-02 \
                                       -e endDate=2021-08-01 \
                                       -e interval=45 \
-                                      -v /volume1/Thomas/calendar:/calendar \
+                                      -v yourlocalpath:/calendar \
                                       "tag used during build"
                                       
           A calendar.ical file will be generated or update ech 45 minutes.
