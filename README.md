@@ -14,6 +14,7 @@ An ical timeline grabber for the EcoleDirecte platform written in python
 - Usage (Docker):
 
           Use the docker file and the "timeline.py" file (same folder) and run a docker build command.
+          Or load the image from the release section directly with "docker load -i <path to image tar file>".
 
           Environnement variables : - MY_USER
                                     - MY_PASS
